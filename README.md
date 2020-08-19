@@ -72,7 +72,7 @@ Image(filename= "AAPL_Single_Layer_NN_Tuned.png")
 
 
 
-After getting the output of the predicted opening and closing price, I binarized the output (1 for closing is greater and 0 for other). Therefore, 1 would mean to long a stock. Since I am only longing the stock, I mapped the predicted 1's to the validation to calculate the ROI. This model accounts things I misaccurately predicted as well. As mentioned before, the return on investment is 77%
+After getting the output of the predicted opening and closing price, I binarized the output (1 for closing is greater and 0 for other). Therefore, 1 would mean to long a stock. Since I am only longing the stock, I mapped the predicted 1's to the validation to calculate the ROI. This model accounts things that were misaccurately predicted as well. As mentioned before, the return on investment is 77%.
 
 ### Recommendations & Future 
 This basic model and research can be used to help predict whether to short or long the stock price. In the future, I want work with an attention layer and compare my model as well as explore other trading strategies.
