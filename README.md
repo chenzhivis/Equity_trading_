@@ -16,7 +16,7 @@ The data was collected from Yahoo finance. It contains historical valuation metr
 ### Best model for fitting
 - RMSE: 6.883
 - Pct growth: 77.6%
-- Accuracy: 594%
+- Accuracy: 59.4%
 - Precision 63.8%
 
 ### EDA
